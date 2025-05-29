@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/techskillswap/static/css/main.75873cc1.css",
+    "main.js": "/techskillswap/static/js/main.fbfcf848.js",
+    "index.html": "/techskillswap/index.html",
+    "static/media/logo.svg": "/techskillswap/static/media/logo.2c60f2990ff9848ac57837f5e52dee60.svg",
+    "main.75873cc1.css.map": "/techskillswap/static/css/main.75873cc1.css.map",
+    "main.fbfcf848.js.map": "/techskillswap/static/js/main.fbfcf848.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75873cc1.css",
+    "static/js/main.fbfcf848.js"
+  ]
+}
