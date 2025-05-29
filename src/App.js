@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Layout from './components/layout/Layout';
+import HeroSection from './components/home/HeroSection';
+import HowItWorks from './components/home/HowItWorks';
+import SkillsGrid from './components/skills/SkillsGrid';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-tech-dark-950 text-tech-gray-100 font-body">
+      <main className="pt-16">
+        <Layout>
+          <HeroSection />
+          <HowItWorks />
+          <SkillsGrid />
+          {/* Additional sections will be added here */}
+        </Layout>
+      </main>
     </div>
   );
 }

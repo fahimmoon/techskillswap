@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass-panel {
+    @apply bg-tech-dark-900/60 backdrop-blur-lg border border-tech-dark-800/50 rounded-xl;
+  }
+  
+  .tech-card {
+    @apply glass-panel hover:shadow-glow transition-all duration-300 overflow-hidden;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-tech-red-500 to-rose-500;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 10px rgba(255, 60, 56, 0.3);
+  }
+}
