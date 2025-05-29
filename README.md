@@ -1,3 +1,38 @@
+# TechSkillSwap
+
+A platform for exchanging technical skills and knowledge.
+
+## Project Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/fahimmoon/techskillswap.git
+cd techskillswap
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start development server
+```bash
+npm start
+```
+
+## Git Setup Instructions
+
+If you're setting up the repository for the first time:
+
+```bash
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fahimmoon/techskillswap.git
+git push -u origin main
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
